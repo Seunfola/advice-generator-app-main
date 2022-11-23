@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    text-align: center;
+ text-align: center; 
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+}
+.container{
+    height: max-content;
+    width: 400px;
+    padding: 40px;
+    border-radius: 30px;
+    background-color: hsl(217, 19%, 24%) ;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    position: relative;
+}
+h4{
+    color:hsl(150, 100%, 66%) ;
+    font-size: 11px;
+    letter-spacing: 4.5px;
+    font-family: 'Manrope', sans-serif;
+}
+p{
+    color: white;
+    font-size: 24px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+}
+.divider{
+    width: 100%;
+    margin: 20px auto;
+}
+button{
+    position: absolute;
+    background-color: hsl(150, 100%, 66%);
+    padding: 15px;
+    border-radius: 50%;
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -25px; ;
+    left: 44%;
+}
+button:hover{
+    cursor: pointer;
+   
+    box-shadow: 0 0 20px hsl(150, 100%, 66%);
+}
