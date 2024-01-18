@@ -45,6 +45,8 @@ p{
 }
 button{
     position: absolute;
+    display: flex;
+    flex-direction: column;
     background-color: hsl(150, 100%, 66%);
     padding: 15px;
     border-radius: 50%;
